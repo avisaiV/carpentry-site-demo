@@ -151,7 +151,7 @@ function SectionTitle({
       <p className="inline-flex items-center gap-2 rounded-full border border-stone-200/70 bg-white/60 px-3 py-1 text-xs font-semibold text-stone-700 shadow-sm backdrop-blur">
         {kicker}
         <span className="h-1 w-1 rounded-full bg-amber-500/80" />
-        Premium finish
+        
       </p>
       <h2 className="mt-3 text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">
         {title}
