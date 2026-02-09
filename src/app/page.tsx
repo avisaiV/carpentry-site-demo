@@ -615,8 +615,20 @@ export default function Home() {
                     </a>
                   </div>
 
-                  <div className="mt-6 rounded-2xl border border-stone-200/70 bg-white/40 p-4 text-xs text-stone-600 backdrop-blur">
-                    Tip: for real clients, add a Google Map embed + service suburbs here.
+                  <div className="mt-6 overflow-hidden rounded-2xl border border-stone-200/70 bg-white/40 shadow-sm backdrop-blur">
+                    <div className="relative h-56 w-full">
+                      <iframe
+                        title="Service area map"
+                        src="https://www.google.com/maps?q=-34.058178,150.695887&z=16&output=embed"
+                        className="h-full w-full"
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        allowFullScreen
+                      />
+                    </div>
+                    <div className="border-t border-stone-200/60 px-4 py-3 text-xs text-stone-600">
+                      Demo location: Camden NSW • Swap this to the client’s address later.
+                    </div>
                   </div>
                 </div>
               </GradientCard>
@@ -698,7 +710,7 @@ export default function Home() {
                     </button>
 
                     <p className="text-xs text-stone-600">
-                      (This opens your email app. For real clients we’ll switch to a proper form endpoint.)
+                      ()
                     </p>
                   </form>
                 </div>
