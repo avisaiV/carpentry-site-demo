@@ -627,7 +627,7 @@ export default function Home() {
                       />
                     </div>
                     <div className="border-t border-stone-200/60 px-4 py-3 text-xs text-stone-600">
-                      Demo location: Camden NSW • Swap this to the client’s address later.
+                      Demo location: Camden NSW 
                     </div>
                   </div>
                 </div>
@@ -710,7 +710,7 @@ export default function Home() {
                     </button>
 
                     <p className="text-xs text-stone-600">
-                      ()
+                      (Will link to clients email address)
                     </p>
                   </form>
                 </div>
